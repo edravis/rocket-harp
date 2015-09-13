@@ -1,0 +1,26 @@
+{
+  "name": "rocket-harp",
+  "version": "0.0.1",
+  "description": "A harp boilerplate with browserify, bower and other cool stuff",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "mkdir -p public/build",
+    "start": "harp server public & watchify app/index.js -o public/build/bundle.js -dv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edravis/rocket-harp.git"
+  },
+  "author": "Rubén Sospedra, Deerloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edravis/rocket-harp/issues"
+  },
+  "homepage": "https://github.com/edravis/rocket-harp",
+  "dependencies": {},
+  "devDependencies": {
+    "harp": "^0.13.0",
+    "watchify": "^1.0.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "rocket-harp",
+  "version": "0.0.1",
+  "authors": [
+    "Rubén Sospedra <sospedra.r@gmail.com>"
+  ],
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "public/styles/_vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "skeleton": "~2.0.4"
+  }
+}
